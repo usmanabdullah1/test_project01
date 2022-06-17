@@ -25,7 +25,7 @@ ul
 }
 footer
 {
-    background-color: #24262b;
+    /* background-color: lightgray; */
     padding: 70px 0;
 }
 .footer-col
@@ -37,11 +37,12 @@ padding: 0 15px;
 .footer-col h4
 {
     font-size: 18px;
-    color: #ffffff;
+    color: #000000;
     text-transform: capitalize;
     margin-bottom: 35px;
     font-weight: 500;
     position: relative;
+    text-align: center;
 
 }
 .footer-col h4::before{
@@ -59,40 +60,41 @@ padding: 0 15px;
     margin-bottom:10px ;
 }
 .footer-col li{
-    color: #ffffff;
+    color: #000000;
+    text-align: center;
 }
 .footer-col ul li a{
 font-size: 16px;
 text-transform: capitalize; 
-color: #ffffff;
+color: #000000;
 text-decoration: none;
 font-weight: 300;
-color: #bbbbbb;
+color: #000000;
 display:block;
 transition: all 0.3s ease;
 }
 
 .footer-col ul li a:hover{
-    color:#ffffff;
+    color:#24262b;
     padding-left: 10px;
 }
 
 .footer-col .social-links a{
     display: inline-block;
     height: 40px;
-    width: 40px;
+    width: 35px;
     background-color: rgba(255,255,255,0.2);
     margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
-    border-radius: 50%;
-    color: #ffffff;
-    transition: all 0.5s ease;
+    border-radius: 40%;
+    color: #24262b;
+    transition: all 0.8s ease;
 
 }
 .footer-col .social-links a:hover{
-    color: #24262b;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #24262b;
 }
 
 /*responsive*/
@@ -120,4 +122,24 @@ transition: all 0.3s ease;
 .footer-col li{
     text-align: center;
 }
+}
+.carousel-item
+{
+    height:500px;
+    background-color: darkgoldenrod;
+}
+.carousel-caption-1
+{
+   text-align: center;
+   margin-top: 120px;
+   color: white;
+}
+
+.main-container
+{
+    color: white;
+    height: 400px;
+    background-image: url("./hero-img.png");
+    background-position: center;
+    background-size: cover;
 }
